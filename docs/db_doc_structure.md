@@ -1,22 +1,24 @@
+
+# Database structure #
+
 The following is the initial document layout.
 
-REPORTS
-=================
-uuid // auto generated
-----
-name				// title of the report
-description			// description of the report
-introtext			// describes content of the report
-execsummary			// report executive summary 
-owner				// platform user
-subscribers 		// recipients of the report ... subscriber-list
-report_type 		// bau, project, adhoc
-report_frequency	// one-off, weekly, monthly, quarterly, annually
-report_template		// output template... default is table display
-report_sectioncount	// counter of sections
-report_created		// date of creation
-report_lastran		// last report run date 
-report_definitions 	// annotations, jargon, notes, context
+| key | definition |
+| --------|:--------:| 
+|uuid | auto generated |
+|name	| title of the report |
+|description | description of the report|
+|introtext | describes content of the report|
+|execsummary	| report executive summary |
+|owner	| platform user|
+|subscribers | recipients of the report ... subscriber-list|
+|report_type | bau, project, adhoc|
+|report_frequency	| one-off, weekly, monthly, quarterly, annually|
+|report_template	| output template... default is table display|
+|report_sectioncount	| counter of sections|
+|report_created	| date of creation|
+|report_lastran	| last report run date |
+|report_definitions | annotations, jargon, notes, context|
 
 report_sections : [{section_title		// section title
 					section_description	// section description
